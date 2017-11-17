@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
-from main_window import MainWindow
+import codecs #For cx_freeze
+
+from __init__ import main
 
 if __name__ == '__main__':
-    MainWindow.start()
+    main()

@@ -2,7 +2,7 @@
 
 from tkinter import *
 
-from question import Question
+from amathquiz.question import Question
 
 class MainWindow(Frame):
     """
