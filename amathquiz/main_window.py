@@ -31,6 +31,7 @@ class MainWindow(Frame):
             self._new_question()
         else:
             self.answer_entry.config(bg='pink')
+        self.answer_entry.delete(0, 'end')
 
     def _new_question(self):
         self.question = Question()
